@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mgrdata>
+  <metadata name="user_include" type="form">
+    <form title="name">
+      <page name="user">
+        <field name="jabber" after="phone">
+          <input type="text" name="jabber" check="email"/>
+        </field>
+      </page>
+    </form>
+  </metadata>
+  <lang name="ru">
+    <messages name="include.notify">
+      <msg name="type_ntjabber">Сообщения Jabber</msg>
+      <msg name="modulename_ntjabber">Сообщения Jabber</msg>
+      <msg name="ntjabber">Сообщения Jabber</msg>
+    </messages>
+    <messages name="user.edit">
+      <msg name="jabber">Jabber</msg>
+      <msg name="hint_jabber">Jabber контакт для получения уведомлений</msg>
+    </messages>
+  </lang>
+</mgrdata>

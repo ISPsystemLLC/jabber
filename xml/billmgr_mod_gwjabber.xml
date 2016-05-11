@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mgrdata>
+  <plugin name="gwjabber">
+    <group>gateway</group>
+    <author>BILLmanager team</author>
+  </plugin>
+  <metadata name="gateway.gwjabber">
+    <form>
+      <field name="gateway_type">
+        <select name="gateway_type" type="radio">
+          <if value="1" hide="ticket_format"/>
+        </select>
+      </field>
+      <field name="jabber">
+        <input type="text" name="jabber" required="yes" identifier="yes" check="email"/>
+      </field>
+      <field name="password">
+        <input type="password" name="password" required="yes"/>
+      </field>
+      <field name="ticket_format">
+        <select type="radio" name="ticket_format" required="yes"/>
+      </field>
+    </form>
+  </metadata>
+  <lang name="ru">
+    <messages name="plugin">
+      <msg name="desc_short_gwjabber">Jabber</msg>
+      <msg name="desc_full_gwjabber">Jabber</msg>
+      <msg name="price_gwjabber">Бесплатно</msg>
+    </messages>
+    <messages name="gateway.gwjabber">
+      <msg name="jabber">Jabber</msg>
+      <msg name="hint_jabber">Jabber</msg>
+      <msg name="ticket_format">Формат кода запроса</msg>
+      <msg name="hint_ticket_format">Формат получения кода запроса во входящем сообщении</msg>
+    </messages>
+    <messages name="gateway_include">
+      <msg name="module_gwjabber">Jabber</msg>
+      <msg name="gwjabber">Jabber</msg>
+      <msg name="desc_gwjabber">Jabber</msg>
+    </messages>
+  </lang>
+</mgrdata>

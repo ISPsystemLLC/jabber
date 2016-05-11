@@ -1,0 +1,5 @@
+type=string
+size=128
+access_read=user+
+access_write=user+
+default=
